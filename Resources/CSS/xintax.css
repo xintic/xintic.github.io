@@ -150,6 +150,7 @@ nav a {
 }
 .team {
     display: flex;
+    flex-flow: wrap;
     justify-content: center;
     color: white;
     flex-basis: 280px;
