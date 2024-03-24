@@ -1,0 +1,33 @@
+body {
+    background-color: gainsboro;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  h1,
+  h2 {
+    text-align: center;
+  }
+
+  .tag {
+    font-family: monospace;
+    text-align: center;
+    background-color: beige;
+  }
+  
+  .name {
+    text-align: center;
+  }
+  
+  table {
+    border: 2px solid black;
+    width: 650px;
+    margin: 0 auto;
+  }
+  
+  thead {
+    background-color: plum;
+  }
+  
+  td {
+    border-top: 1px solid black;
+  }

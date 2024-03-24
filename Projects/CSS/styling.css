@@ -1,0 +1,81 @@
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0 10%;
+}
+.colors {
+  width: 100%;
+}
+.container {
+  border: 2px solid lightgray;
+  padding: 10px 10px;
+  margin: 10px auto;
+}
+.color-box {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+  margin: 20px auto;
+  min-height: 100px;
+}
+.cornflower-blue {
+  background-color: #6495ED;
+  color: #fff;
+}
+.dark-orchid {
+  background-color: #9932CC;
+  color: #fff;
+}
+.blanched-almond {
+  background-color: #FFEBCD;
+}
+.pale-turquoise {
+  background-color: #AFEEEE;
+}
+.pale-violet-red {
+  background-color: #DB7093;
+  color: #fff;
+}
+.pale-green {
+  background-color: #98FB98;
+}
+.font-box {
+  display: inline-block;
+  width: 45%;
+}
+.font-label {
+  font-size: 20px;
+  text-decoration: underline;
+}
+.source-code-pro {
+  font-family: "Source Code Pro";
+}
+.nunito-sans {
+  font-family: "Nunito Sans";
+}
+.poppins {
+  font-family: "Poppins";
+}
+.normal {
+  font-style: normal;
+}
+.bold {
+  font-weight: 700;
+}
+.italic {
+  font-style: italic;
+}
+.type h1 {
+  font-family: "Nunito Sans";
+  font-size: 32px;
+  font-weight: 700;
+}
+.type h2 {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 500;
+}
+.type p {
+  font-family: "Source Code Pro";
+  font-size: 14px;
+  font-weight: 400;
+}
