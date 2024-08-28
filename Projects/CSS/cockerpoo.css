@@ -1,0 +1,246 @@
+/* Universal Styles */
+
+html {
+    font-family: 'Wix Madefor Text';
+    font-size: 16px;
+}
+
+/* Header Styles */
+
+header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+header h2 {
+    font-size: 3rem;
+    padding-top: 2rem;
+}
+
+header .nav-desktop {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    padding: 1rem;
+}
+
+header nav li {
+    padding: 1rem;
+}
+
+.nav-mobile {
+    display: none;
+}
+
+/* #background-mobile {
+    display: none;
+}
+*/
+
+
+
+/* Info Styles */
+
+#info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 40rem;
+    background-image: url("../Images/Cockerpoo/cocker-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.statement-desktop {
+    padding: 0rem 2.5rem 2.5rem 2.5rem;
+    margin-top: 17rem;
+    margin-left: 6.25rem;
+    border: solid 1px black;
+    border-radius: 4px;
+    background-color: #f7cb63;
+    width: 30rem;
+    height: 14rem;
+    color: #1c1c1c;
+    text-align: center;
+}
+
+.statement-desktop h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.statement-desktop p {
+    line-height: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+.statement-mobile {
+    display: none;
+}
+
+/* Just Nu Styles */
+
+#just-nu h2 {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.nyheter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.aktuellt {
+    width: 318px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.aktuellt h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+.aktuellt p {
+    line-height: 1.25rem;
+}
+
+.aktuellt img {
+    border: 1px solid black;
+}
+
+/* Footer Styles */
+footer {
+    height: 3rem;
+}
+footer p {
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 760px) {
+
+    #background-mobile {
+        background-color: white;
+        height: 3.75rem;
+    }
+
+    header .dropbtn {
+        background-color: #4a4a4a;
+        color: white;
+        padding: 10px;
+        font-size: 1.2rem;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+
+    .nav-mobile {
+        position: absolute;
+        display: inline-block;
+        top: 0.5rem;
+        left: 0.5rem;
+    }
+
+    .dropdown {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    .dropdown a {
+        color: black;
+        padding: 0.75rem 1rem;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown a:hover {
+        background-color: #ddd;
+    }
+
+    .nav-mobile:hover .dropdown {
+        display: block;
+    }
+
+    .nav-mobile:hover .dropbtn {
+        background-color: #1c1c1c;
+    }
+
+    .background {
+        background-color: white;
+        height: 10rem;
+        width: 100%;
+    }
+
+    header .nav-desktop {
+        display: none;
+    }
+
+    header h2 {
+        font-size: 2rem;
+        position: absolute;
+        right: 0.5rem;
+        top: -1.25rem;
+    }
+
+    .statement-desktop {
+        display: none;
+    }
+
+    .statement-mobile {
+        display: block;
+        padding: 0rem 2.5rem 2.5rem 2.5rem;
+        margin-top: 5rem;
+        margin-left: 0.5rem;
+        border: solid 1px black;
+        border-radius: 4px;
+        background-color: #f7cb63;
+        width: 24rem;
+        height: 18.5rem;
+        color: #1c1c1c;
+        text-align: center;
+    }
+    
+    .statement-mobile h3 {
+        font-size: 1.3rem;
+        font-weight: 700;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    
+    .statement-mobile p {
+        line-height: 1.2rem;
+        padding-bottom: 1rem;
+    }
+
+    .nyheter {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aktuellt {
+        padding-bottom: 1rem;
+    }
+
+}

@@ -1,0 +1,198 @@
+/* Universal Styles */
+
+html {
+    font-family: monospace;
+    font-size: 16px; 
+}
+
+
+/* Header Styles */
+header {
+    font-family: monospace;
+    position: fixed;
+    width: 100%;
+    border-bottom: solid 1px #979797;
+    background-color: #1c1c1c;
+    z-index: 1;
+}
+
+header .content {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.875rem
+}
+
+header nav ul {
+    display: flex;
+}
+
+header .logo {
+    font-size: 1.25rem;
+    color: white;
+}
+  
+nav li {
+    padding-left: 3.5rem; 
+}
+  
+nav a {
+    vertical-align: bottom;
+    font-size: 1.25rem;
+    color: white;
+}  
+
+/* Statement Styles */
+
+#about-us {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 40rem;
+    background-image: url("../Images/Xintax/xintax-banner.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.statement {
+    padding: 0rem 5rem 2.5rem 5rem;
+    margin-top: 10.625rem;
+    margin-bottom: 10.625rem;
+    margin-left: 6.25rem;
+    border: solid 1px #979797;
+    border-radius: 4px;
+    background-color: #1c1c1c;
+    width: 25.625rem;
+    height: 17rem;
+    color: white;
+    font-family: monospace;
+}
+
+.statement h1 {
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-weight: 700;
+}
+
+.statement h2 {
+    font-size: 1.65rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.statement p {
+    font-size: 1.05rem;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.socials {
+    text-align: center;
+}
+.socials img {
+    width: 20%;
+}
+
+/* Projects Styles */
+
+#projects {
+    background-color: #4a4a4a;
+}
+
+#projects h2 {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+.websites {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+}
+
+.websites img {
+    margin: 0 0.5rem 1rem 0.5rem ;
+    transition: filter .5s ease-in-out;
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%); /* FF 35+ */
+    border: 1px solid black;
+}
+
+.websites img:hover {
+    transition: filter .5s ease-in-out;
+    -webkit-filter: grayscale(0); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(0); /* FF 35+ */
+    border: 1px solid white;
+}
+
+/* Team Styles */
+
+#the-team {
+    background-color: #4a4a4a;
+}
+
+#the-team h2 {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.team {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    color: white;
+    flex-basis: 280px;
+    text-align: center;
+}
+
+.team h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.members {
+    padding: 10px;
+}
+.members img {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+/* Footer Styles */
+
+footer {
+    font-family: monospace;
+    width: 100%;
+    border-top: solid 1px #979797;
+    background-color: #1c1c1c;
+    color: white;
+}
+
+.contacts {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.contacts p {
+    padding: 10px;
+}
+
+.c {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
