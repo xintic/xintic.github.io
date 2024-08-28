@@ -95,6 +95,20 @@ nav a {
     width: 20%;
 }
 
+/* Hides Mobile on Desktop */
+
+.statement-mobile {
+    display: none;
+}
+
+.logo-mobile {
+    display: none;
+}
+
+.nav-mobile {
+    display: none;
+}
+
 /* Projects Styles */
 
 #projects {
@@ -195,4 +209,114 @@ footer {
 .c {
     padding-left: 10px;
     padding-bottom: 10px;
+}
+
+/* Statement Mobile */
+
+@media only screen and (max-width: 760px) {
+    .statement-mobile {
+        display: block;
+        padding: 0rem 5rem 2.5rem 5rem;
+        margin-top: 10.625rem;
+        margin-bottom: 10.625rem;
+        margin-left: 0.4rem;
+        border: solid 1px #979797;
+        border-radius: 4px;
+        background-color: #1c1c1c;
+        width: 14rem;
+        height: 16rem;
+        color: white;
+        font-family: monospace;
+    }
+
+    .statement-mobile h1 {
+        font-size: 3rem;
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        font-weight: 700;
+    }
+    
+    .statement-mobile h2 {
+        font-size: 1.2rem;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    
+    .statement-mobile p {
+        font-size: 1.05rem;
+        text-align: center;
+        padding-bottom: 1.5rem;
+    }
+    
+    .socials {
+        text-align: center;
+    }
+    .socials img {
+        width: 20%;
+    }
+
+    .logo-mobile {
+        display: block;
+        font-size: 1.25rem;
+        color: white;
+        position: absolute;
+        right: 1.3rem;
+        top: 1.3rem;
+    }
+
+    header .dropbtn {
+        background-color: #4a4a4a;
+        color: white;
+        padding: 10px;
+        font-size: 1.2rem;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+
+    .nav-mobile {
+        position: absolute;
+        display: inline-block;
+        top: 0.5rem;
+        left: 0.5rem;
+    }
+
+    .dropdown {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    .dropdown a {
+        color: black;
+        padding: 0.75rem 1rem;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown a:hover {
+        background-color: #ddd;
+    }
+
+    .nav-mobile:hover .dropdown {
+        display: block;
+    }
+
+    .nav-mobile:hover .dropbtn {
+        background-color: #1c1c1c;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .statement {
+        display: none;
+    }
 }
